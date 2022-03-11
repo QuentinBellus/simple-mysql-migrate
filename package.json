@@ -2,11 +2,24 @@
   "name": "simple-db-migrate",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/QuentinBellus/simple-db-migrate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  }
 }
