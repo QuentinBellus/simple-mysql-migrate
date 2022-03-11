@@ -22,5 +22,7 @@ await migration.migrate();
 ```
 
 It is dead simple: it will scan through the .sql files and run them in order.
+
 A `schema_version` table will be created to keep track of what has already been ran. 
+
 The filenames should be called `v[any version]__[any string].sql`, for example: `v1.2.5__new_user_table.sql`
