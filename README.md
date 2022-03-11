@@ -1,4 +1,4 @@
-# Simple-DB-Migrate
+# Simple-Mysql-Migrate
 
 ## Dead simple database migration for SQL only
 
@@ -6,7 +6,7 @@ Migrates through code only, no CLI supported
 
 
 ```javascript
-import DbMigrate from 'simple-db-migrate';
+import DbMigrate from 'simple-mysql-migrate';
 
 // These are the default settings if none are used
 const migration = new DbMigrate ({

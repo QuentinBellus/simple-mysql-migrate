@@ -1,8 +1,8 @@
 {
-  "name": "simple-db-migrate",
+  "name": "simple-mysql-migrate",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/QuentinBellus/simple-db-migrate",
+  "homepage": "https://github.com/QuentinBellus/simple-mysql-migrate",
   "main": "index.js",
   "scripts": {
     "build": "tsc"
@@ -20,6 +20,9 @@
     "lib/**/*"
   ],
   "dependencies": {
-    "mysql2": "^2.3.3"
+    "fs": "^0.0.1-security",
+    "mysql2": "^2.3.3",
+    "os": "^0.1.2",
+    "path": "^0.12.7"
   }
 }
