@@ -1,6 +1,8 @@
-# Dead simple database migration for SQL only
+# Simple-DB-Migrate
 
-# Migrates through code only, no CLI supported
+## Dead simple database migration for SQL only
+
+Migrates through code only, no CLI supported
 
 
 ```javascript
