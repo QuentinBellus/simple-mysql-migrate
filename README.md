@@ -2,7 +2,8 @@
 
 ## Dead simple database migration for SQL only
 
-Migrates through code only, no CLI supported
+
+The principle is similar to Flyway and all similar tools, except it's VERY basic and runs in a few lines of code for NodeJS. MySQL only.
 
 
 ```javascript
