@@ -1,15 +1,16 @@
 {
   "name": "simple-mysql-migrate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "homepage": "https://github.com/QuentinBellus/simple-mysql-migrate",
-  "main": "index.js",
-  "scripts": {
+  "main": "dist/index.js",
+    "scripts": {
     "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "@types/jest": "^27.4.1",
     "jest": "^27.5.1",
