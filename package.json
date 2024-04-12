@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "fs": "^0.0.1-security",
-    "mysql2": "^2.3.3",
+    "mysql2": "^3.9.4",
     "os": "^0.1.2",
     "path": "^0.12.7"
   }
