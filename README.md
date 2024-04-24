@@ -5,7 +5,23 @@
 
 The principle is similar to Flyway and all similar tools, except it's VERY basic and runs in a few lines of code for NodeJS. MySQL only.
 
+Javascript:
+```javascript
+const DbMigrate = require('simple-mysql-migrate').default;
 
+const migration = new DbMigrate({
+    host: "127.0.0.1",
+    port: 3306,
+    username: "test",
+    password: "test",
+    database: "test"
+});
+
+migration.setMigrationPath("./mysql");
+migration.migrate();
+```
+
+Typescript:
 ```javascript
 import DbMigrate from 'simple-mysql-migrate';
 
