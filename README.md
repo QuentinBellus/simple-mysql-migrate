@@ -12,12 +12,12 @@ const DbMigrate = require('simple-mysql-migrate').default;
 const migration = new DbMigrate({
     host: "127.0.0.1",
     port: 3306,
-    username: "test",
-    password: "test",
-    database: "test"
+    username: "my_user",
+    password: "my_password",
+    database: "my_database_name"
 });
 
-migration.setMigrationPath("./mysql");
+migration.setMigrationPath("/path/to/my/migration/files/");
 migration.migrate();
 ```
 
