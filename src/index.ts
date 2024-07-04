@@ -96,7 +96,7 @@ export default class DbMigrate {
 export class DbMigrateLogger 
 {
     public static log(content: string ) {
-            console.log('[DBMigrate][' + (new Date()).toISOString() + '] ' + content);        
+            console.log('[' + (new Date()).toISOString() + '][DBMigrate] ' + content);        
     }
 }
 
