@@ -1,6 +1,6 @@
 {
   "name": "simple-mysql-migrate",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "homepage": "https://github.com/QuentinBellus/simple-mysql-migrate",
   "main": "dist/index.js",
