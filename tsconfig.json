@@ -1,15 +1,27 @@
 {
-    "compilerOptions": {
-      "target": "es5",
-      "module": "commonjs",
-      "declaration": true,
-      "outDir": "./dist",
-      "strict": true,
-      "noImplicitAny": false,
-      "strictPropertyInitialization": false,
-      "moduleResolution": "node",
-      "esModuleInterop": true
-    },
-    "include": ["src"],
-    "exclude": ["node_modules", "**/__tests__/*"]
-  }
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "lib": [
+      "es2019"
+    ],
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "moduleResolution": "node10",
+    "ignoreDeprecations": "5.0",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/__tests__/*",
+    "**/*.test.ts"
+  ]
+}
